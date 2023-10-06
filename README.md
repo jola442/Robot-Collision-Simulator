@@ -1,4 +1,5 @@
-# Robot-Collision-Simulator
+## Description
+This is a desktop application that simulates simple robots. The simulator uses threads and allows multiple robots to connect to it, with each robot running as its own process. The robots move forward or turn in fixed increments each time, and there is an environment containing up to a maximum number of robots. The line drawn through the center of each robot indicates what direction it is facing. On collision with the walls or other robots, the robots seek an alternative path that avoids subsequent collisions. Made with C.
 
 ## Run Instructions and General Information
 Run the make file. \
